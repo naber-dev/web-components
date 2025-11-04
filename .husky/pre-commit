@@ -1,5 +1,5 @@
 echo pre commit hook running...
-npm run type-check
+npm run format
 npm run ci
 if [ $? -ne 0 ]; then
   echo "Pre-commit checks failed. Commit aborted."
